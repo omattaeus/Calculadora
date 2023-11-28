@@ -111,7 +111,7 @@ public class Memoria {
 				return TipoComando.SUB;
 			} else if("=".equals(texto)) {
 				return TipoComando.IGUAL;
-			} else if("±".equals(texto)) {
+			} else if("+/-".equals(texto)) {
 				return TipoComando.SINAL;
 			} else if(",".equals(texto) && !textoAtual.contains(",")) {
 				return TipoComando.VIRGULA;
